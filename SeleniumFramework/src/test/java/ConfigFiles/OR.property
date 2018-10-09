@@ -1,0 +1,48 @@
+#----------------------------------Hotels Search-------------------------------------------#
+HotelNameTextBox=select2-chosen
+HotelNameInput=.//*[@id='select2-drop']/div/input
+HotelNameSelectValue=//*[@id='select2-drop']/ul/li/ul/li/div/span
+HotelChkInDt=.//*[@id='dpd1']/div/input
+HotelChkOutDt=.//*[@id='dpd2']/div/input
+HotelTravellers=travellersInput
+HotelAdultGuest=adultInput
+HotelChildGuest=childInput
+HotelSearchBtn=.//*[@id='HOTELS']/form/div[5]/button
+HotelNameTxt=.//*[@id='body-section']/div[2]/div/div/div[2]/div/span[1]/strong/span
+
+#-----------------------------Flight Search------------------------------------
+FlightsLink=//*[@id='collapse']/ul[1]/li[3]/a
+FlightRoundTripRdBtn=.//*[@id='body-section']/div[2]/div/form/div[9]/div[2]/div/div/ins
+FlightFrom=//*[@id='s2id_location_from']/a/span[1]
+FlightFromInput=.//*[@id='select2-drop']/div/input
+FlightFromResult=select2-result-label
+FlightTo=s2id_location_to
+FlightToInput=.//*[@id='select2-drop']/div/input
+FlightToResult=select2-result-label
+FlightDepDt=.//*[@name='departure']
+FlightArrDt=.//*[@name='arrival']
+FlightTravellers=.//*[@id='body-section']/div[2]/div/form/div[5]/div/input
+FlightSearchBtn=.//*[@id='body-section']/div[2]/div/form/div[6]/button
+FlightAvailableLabel=.//*[@id='body-section']/div[4]/div/div[3]/div[1]/div
+FlightBookBtn=.//*[@id='bookbtn']
+FlightBookingAmnt=.//*[@id='load_data']/tbody/tr[1]/td/div[2]/p/span
+FlightBookingPageAmount=.//*[@id='body-section']/div/div/div[1]/div/div[2]/div[4]/table[2]/tbody/tr[2]/td[2]/strong
+
+#------------------------------Personal Details------------------------------------
+FirstName=.//*[@id='guestform']/div[1]/div[2]/input
+LastName=.//*[@id='guestform']/div[1]/div[3]/input
+Email=.//*[@id='guestform']/div[2]/div[2]/input
+ConfirmEmail=.//*[@id='guestform']/div[2]/div[3]/input
+Mobile=.//*[@id='guestform']/div[3]/div[2]/input
+Address=.//*[@id='guestform']/div[4]/div[2]/input
+Country=.//*[@id='s2id_autogen1']/a
+CountryInput=.//*[@id='select2-drop']/div/input
+CountrySearchResult=.//*[@id='select2-drop']/ul/li/div
+BookingConfirmationBtn=.//*[@id='body-section']/div/div/div[1]/div/div[1]/div[2]/div[3]/button
+
+#-------------------------Payment Page---------------------------
+PayNowBtn=//*[@id='body-section']/div[1]/div[2]/div[2]/center/button[2]
+
+
+
+

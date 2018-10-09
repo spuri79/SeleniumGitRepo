@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHPTravel">
+  <test thread-count="5" name="SearchHotel">
+    <classes>
+      <class name="PHPTravels.SearchHotel"/>
+    </classes>
+  </test> <!-- SearchHotel-->
+  <test thread-count="5" name="SearchFlight">
+    <classes>
+      <class name="PHPTravels.SearchFlight"/>
+    </classes>
+  </test> <!-- SearchFlight-->
+</suite> <!-- PHPTravel -->

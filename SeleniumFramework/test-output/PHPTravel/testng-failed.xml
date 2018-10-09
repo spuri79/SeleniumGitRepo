@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PHPTravel]">
+  <test name="SearchFlight(failed)">
+    <classes>
+      <class name="PHPTravels.SearchFlight">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="searchFlight"/>
+        </methods>
+      </class> <!-- PHPTravels.SearchFlight -->
+    </classes>
+  </test> <!-- SearchFlight(failed) -->
+</suite> <!-- Failed suite [PHPTravel] -->
